@@ -1,0 +1,333 @@
+/********** General **********/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    overflow: hidden;
+    max-width: 100vw;
+    max-height: 100vh;
+    font-family: 'Rubik', sans-serif;
+}
+body{
+    background-color: black;
+}
+
+h1, p, a{
+    margin: 0;
+    padding: 0;
+}
+
+/********** Navbar **********/
+.navbar{
+    background-color: rgba(0,0,0,.85);
+    border-radius: 0 0 8px 8px;
+}
+.navbar .container{
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand{
+    font-size: 7vw;
+    position: absolute;
+    padding: 130vh 0 0 0vh;
+    z-index: 1000;
+}
+span{
+    display: inline-block;
+}
+.nav-item{
+    margin: 0 5vw 0 5vw;
+}
+
+/********** Landing **********/
+
+.landing{
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url("../bg-img/landing.jpg");
+    background-size: cover;
+    opacity: 1;
+    max-height: 100vh;
+}
+
+/** arrow **/
+
+a.button {
+  position: absolute;
+  display: inline-block;
+  width: 25.6em;
+  height: 6.3em;
+  overflow: hidden;
+  vertical-align: middle;
+  text-align: left;
+  text-decoration: none;
+  line-height: 3em;
+  font-size: 1rem;
+  color: #fff;
+  cursor: pointer;
+  transform: translateZ(0);
+  transition: transform 0.5s;
+  margin: 80vh 0 0 60vw;
+}
+a.button svg {
+  z-index: 1002;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+a.button svg{
+    padding: 1vh 0 0 0;
+}
+a.button svg g line,
+a.button svg g polyline,
+a.button svg g circle {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 0.166em;
+}
+a.button svg g line,
+a.button svg g polyline {
+  stroke-miterlimit: 10;
+}
+a.button svg g circle {
+  display: block;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 0.166em;
+  stroke-dasharray: 200;
+  stroke-dashoffset: 0;
+  transition: stroke-dashoffset ease-out 0.5s;
+}
+a.button font {
+  color: white;
+  z-index: 1002;
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+}
+a.button:hover {
+  transform: translateZ(0) translateX(0.5em);
+}
+a.button:hover svg g circle {
+  stroke-dashoffset: 200;
+}
+
+/** endarrow**/
+
+/********** Home **********/
+
+.home{
+    position: absolute;
+}
+.home-logo1{
+    width: 30px;
+}
+.home-bg{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url("../bg-img/landing.jpg");
+    background-size: cover;
+    opacity: 0;
+}
+.home {
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+.title-btn{
+    max-height: 100vh;
+    max-width: 80vw;
+    overflow: hidden;
+    position: absolute;
+}
+.btn-fade{
+    font-size: 3vh;
+    height: 5vh;
+    color: white;
+    border-color: white;
+    margin: 75vh 0 0 -1vh;
+    line-height: 0;
+}
+.tall{
+    margin-right: 1vh;
+    background-color: rgba(255,255,255,.1);
+}
+.tall:hover{
+    background-color: #658E9C;
+    border-color: #2A324B;
+}
+.part{
+    margin-left: 1vh;
+    background-color: #658E9C;
+    border-color: #2A324B;
+}
+.part:hover{
+    background-color: rgba(255,255,255,.1);
+    border-color: white;
+}
+
+/********** Nosotros ********n**/
+
+.neon-bg{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url("../bg-img/old-desk.jpg");
+    background-size: cover;
+    opacity: 0;
+    display: none;
+}
+.neon-content-1{
+    background-color: rgba(0,0,0,.6);
+    padding: 1em;
+    border-radius: 10px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 15vh;
+}
+
+.neon-content-2{
+    margin: 0 auto;
+    margin-left: 16%;
+}
+
+.taller-txt, .restauraciones-txt{
+    text-align: center;
+}
+
+.restauraciones-txt{
+    width: 80%;
+}
+
+/********** Servicio **********/
+
+.servicios-bg{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url("../bg-img/old-sofa.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    display: none;
+}
+
+
+/********** Contacto **********/
+
+.contacto-bg{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url("../bg-img/wooden-dark.jpg");
+    background-size: auto;
+    opacity: 0;
+    text-align: center;
+    display: none;
+}
+
+.contacto h2{
+    margin-bottom: 2vh;
+}
+
+.btn-contact{
+    color: white;
+    border-color: white;
+}
+
+.btn-contact:hover{
+    background-color: #658E9C;
+    border-color: #2A324B;
+}
+
+.contact-container{
+    margin-top: 15vh;
+    width: 100%;
+    padding: 1em;
+    margin: 0 auto;
+}
+
+.input-text{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    width: 80%;
+    color: white;
+    margin: 1em 0 1em 0;
+}
+
+::placeholder{
+    color: lightgray;
+    padding-left: .2em;
+    border-radius: 8px;
+}
+
+/* Delta */
+
+.delta-brand-large a{
+    color: #658E9C;
+}
+
+.delta-brand-large a:hover{
+    color: white;
+}
+
+.delta-brand-small{
+    display: none;
+}
+
+/** Medias **/ 
+
+@media (max-width: 991px){
+    .contact-container{
+        width: 100%;
+    }
+    .input-text{
+        width: 90%;
+        margin: .8em 0 .8em 0;
+    }
+    .navbar{
+        background-color: black;
+    }
+    .navbar-brand{
+        padding: 0 0 0 0;
+        position: relative;
+        font-size: 5vw;
+    }
+    .title-btn{
+        position: relative;
+    }
+    a.button{
+        font-size: .8rem;
+        margin: 60vh 0 0 5vw;
+    }
+    .delta-brand-small{
+        display: inline;
+    }
+    .delta-brand-large{
+        display: none;
+    }
+    
+}
+

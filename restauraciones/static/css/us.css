@@ -1,0 +1,61 @@
+.usform{
+    background-color: rgba(0,0,0,.5);
+    border-radius: 10px;
+    padding: 2em;
+    width: 50vw;
+}
+
+@media (max-width: 800px){
+    .usform{
+        width: 80vw;
+    }
+}
+
+@media (max-width: 600px){
+    .usform{
+        margin: 0 auto;
+    }
+}
+
+input, textarea{
+    margin: 1vh 0 1vh 0;
+    max-width: 95%;
+}
+
+.btn{
+    font-size: 2vh;
+}
+
+.us{
+    min-height: 100vh;
+    background-image: url(../../img/bg-light.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.talleres{
+    min-height: 100vh;
+    background-image: url(../../img/bg-red-blue.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.taller{
+    min-height: 100vh;
+    background-image: url(../../img/bg-blue-red.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.thumbnail{
+    border-radius: 10px;
+    color: white;
+}
+
+.image_picker_image{
+    border-radius: 10px;
+}
+

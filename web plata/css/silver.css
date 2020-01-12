@@ -1,0 +1,127 @@
+/********** General **********/
+
+html, body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    height: 100%;
+    font-size: 100%;
+    font-family: "Archivo";
+}
+body{
+    overflow: hidden;
+}
+h1, p, a{
+    margin: 0;
+    padding: 0;
+}
+
+/********** Navbar **********/
+
+.my-nav{
+    z-index: 0;
+}
+.navbar .container{
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand{
+    font-size: 20vh;
+    position: absolute;
+    padding: 73vh 0 0 0vh;
+}
+.nav-item{
+    margin: 0 15vh 0 15vh;
+}
+
+/********** Home **********/
+
+.home{
+    position: absolute;
+}
+.home-logo1{
+    width: 30px;
+}
+.home-bg{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    opacity: 1;
+}
+.home {
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+.title-btn{
+    min-height: 100vh;
+    overflow: hidden;
+    position: absolute;
+}
+.btn{
+    font-size: 3vh;
+    height: 7vh;
+    color: white;
+    border-color: white;
+    margin: 75vh 0 0 -1vh;
+}
+
+/********** Neon **********/
+
+.neon-bg{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url("../images/neonbg1.jpg");
+    background-size: cover;
+    opacity: 0;
+}
+.row{
+    width: 100%;
+    display: inline-flex;
+    margin-top: 20%;
+    margin-left: 1%;
+}
+.neon-content-1{
+    margin: 0 auto;
+    margin-right: 16%;
+}
+
+.neon-content-2{
+    margin: 0 auto;
+    margin-left: 16%;
+}
+
+/********** Servicio **********/
+
+.servicios-bg{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url("../images/servicebg.jpg");
+    background-size: cover;
+    opacity: 0;
+}
+
+/********** Contacto **********/
+
+.contacto-bg{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url("../images/blurrybg.jpg");
+    background-size: cover;
+    opacity: 0;
+}
